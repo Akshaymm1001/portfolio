@@ -7,43 +7,36 @@
     height: 80px;
     align-items: center;
     display: flex;
+  
     
 }
 .square{
     background-color: rgb(61, 55, 55);
     width:5%;
     height: 25px;
-  margin-left: 5%;
+ margin-left: 10%;
 }
 .options{
    
-    width: 40%;
+    width: 50%;
     height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: gray;
-    margin-left: 27%;
+   margin-left: 20%;
     font-size: small;
+    gap: 3%;
 }
-.etc{
-    width: 10%;
-    height: 80px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    color: gray;
-    margin-left: 7%;
-    font-size: small;
-}
+
 span{
     color: red;
 }
 
 .secondBox{
- 
+
     width: 100%;
-    height: 400px;
+    height: 555px;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -56,28 +49,70 @@ span{
    align-items: center;
    padding-left: 10%;
    padding-top: 10%;
+  
 }
 .Buttons{
     background-color: red;
-    width: 30%;
-    height: 40px;
+    width: 50%;
+    height: 30px;
     align-items: center;
     display: flex;
     border: none;
-    margin-top: 10%;
-    justify-content: space-around;
-    border-radius: 5%;
+    padding-left: 10%;
+background-color: rgb(69, 63, 63);
+    border-radius: 9px;
     font-size: small;
-
+ color: white;
 }
 .image{
     height: 100%;
-    width: auto;
+    width: 100%;
 
 }
 img{
     height: 100%;
-    width: 100%;
-    padding-right: 30%;
+    width: 90%;
+    
+    
     
 }
+.bgBox{
+    border: none;
+    border-right: 2px solid gray;
+    height: 100%;
+    width: 70%;
+   
+}
+.links{
+    height: 30px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35%;
+    border: none;
+    gap:3px;
+   
+}
+.ICON{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+@media only screen and (max-width: 650px) {
+    .navBar .options{
+  margin-left:10%;
+  font-size: xx-small;
+    }
+    .Buttons{
+        font-size: small;
+        width: 90px;
+    }
+    .links{
+        margin-top: 10%;
+    }
+  }
+  .fas fa-file-pdf{
+ justify-content: space-around;
+    align-items: center;
+    
+  }
